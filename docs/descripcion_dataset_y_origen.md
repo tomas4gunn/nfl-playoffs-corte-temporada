@@ -31,7 +31,7 @@ El archivo crudo está **sin modificar** en `data/raw/games.csv`. Todo lo demás
 - **Tipos de dato** 21 de texto, 18 numéricas decimales y 7 enteras
 - El **diccionario de las 46 columnas** (tipo, faltantes y descripción) está en `references/diccionario_games_csv.md`
 
-**Columnas que uso** `season`, `game_type`, `week`, `gameday`, `away_team`, `home_team`, `away_score` y `home_score`.
+**Columnas que use** `season`, `game_type`, `week`, `gameday`, `away_team`, `home_team`, `away_score` y `home_score`.
 
 **Columnas que no use** identificadores de otras fuentes, cuotas de apuestas, clima, estadio, árbitro, entrenadores y mariscales de campo. Varias tienen muchos faltantes. Además `result`, `total` y las cuotas son datos del partido mismo o externos, y no aportan a las variables de rendimiento que quiero construir.
 
