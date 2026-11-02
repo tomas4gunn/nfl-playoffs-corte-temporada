@@ -33,7 +33,7 @@ El archivo crudo está **sin modificar** en `data/raw/games.csv`. Todo lo demás
 
 **Columnas que uso** `season`, `game_type`, `week`, `gameday`, `away_team`, `home_team`, `away_score` y `home_score`.
 
-**Columnas que no uso** identificadores de otras fuentes, cuotas de apuestas, clima, estadio, árbitro, entrenadores y mariscales de campo. Varias tienen muchos faltantes (por ejemplo `ftn` 74,2 % y `pff` 38,1 %). Además `result`, `total` y las cuotas son datos del partido mismo o externos, y no aportan a las variables de rendimiento que quiero construir.
+**Columnas que no use** identificadores de otras fuentes, cuotas de apuestas, clima, estadio, árbitro, entrenadores y mariscales de campo. Varias tienen muchos faltantes. Además `result`, `total` y las cuotas son datos del partido mismo o externos, y no aportan a las variables de rendimiento que quiero construir.
 
 ### Cosas que encontré al revisar los datos
 1. **El archivo incluye la temporada 2026, que está en curso.** Trae el calendario completo (272 partidos) pero solo 120 tienen puntaje. Como todavía no se sabe quién llega a playoffs, la dejé afuera.
